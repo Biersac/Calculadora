@@ -102,10 +102,12 @@ public class AppCalculadora implements ActionListener{
           if(i!=20 && i!=21){
               btnBotones[i].setBounds(x,y,50,30);
           }else{
-              if(i==20)
+              if(i==20){
                   btnBotones[i].setBounds(x,y,120,30);
-              if(i==21)
+                }
+              if(i==21){
                   btnBotones[i].setBounds(10,y+35,260,30);
+                }
           }
             
                     
@@ -252,6 +254,7 @@ public class AppCalculadora implements ActionListener{
               case 16:
                   d.setNumeroA(c.fromHexadecimal(txtResultado.getText()));
                   break;
+              default;
           }
           txtResultado.setText("");
       }
