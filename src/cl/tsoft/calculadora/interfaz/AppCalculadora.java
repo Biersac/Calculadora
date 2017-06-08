@@ -19,7 +19,7 @@ public class AppCalculadora implements ActionListener{
   Conversion c;
 
   /**
-  * @author :D
+  * @author :D vsadsadas
   *
   */
   public AppCalculadora() {
