@@ -18,6 +18,10 @@ public class AppCalculadora implements ActionListener{
   Sistema d;
   Conversion c;
 
+  /**
+  * @author :D
+  *
+  */
   public AppCalculadora() {
       initComponents();
   }
